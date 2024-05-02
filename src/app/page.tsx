@@ -10,8 +10,8 @@ export default function Home() {
         <>  
             <BannerHome/>
             <QuemSomos/>
-            <Portfolio/>
             <Marcas/>
+            <Portfolio/>
         </>
     )
 }
