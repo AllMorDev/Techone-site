@@ -7,6 +7,10 @@
     padding: 30px 30px;
 }
 
+.container a {
+    margin-right: auto;
+}
+
 .containerSearch {
     display: flex;
     justify-content: center;
@@ -157,7 +161,7 @@
     display: none;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1036px) {
     .container {
         padding: 0px 11px;
         height: 68px;

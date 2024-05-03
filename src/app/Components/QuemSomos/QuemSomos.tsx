@@ -100,7 +100,7 @@ export default function QuemSomos() {
                         destaque cada vez maiores da Tech One, da Svart e da Code no aftermarket automotivo.
                     </p>
                 </div>
-                <Image className={styles.Image} src={Palheta} alt="Salão do Automóvel" />
+                <Image className={styles.Image} src={Palheta} alt="Palheta" />
             </div>
             <div className={styles.historia} style={{background: '#EAEDEE'}}>
                 <Image className={styles.Image} src={Lampada} alt="+18 países" />
