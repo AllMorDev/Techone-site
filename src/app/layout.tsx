@@ -3,6 +3,7 @@ import { Lato } from "next/font/google";
 import "./globals.css";
 import Header from "./Components/Header/header";
 import Footer from "./Components/Footer/Footer";
+import Seta from "./Components/Seta/Seta"
 
 const lato = Lato({ 
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={lato.className}>
         <Header/>
         {children}
+        <Seta/>
         <Footer/>
       </body>
     </html>

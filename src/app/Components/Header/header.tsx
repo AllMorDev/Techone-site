@@ -22,7 +22,7 @@ export default function Header() {
 
     return (
         <>
-            <div className={styles.container}>
+            <div id="targetDiv" className={styles.container}>
         {showInput && 
             <div className={styles.backgroundTransparent}>
                 <div className={styles.containerSearch}>

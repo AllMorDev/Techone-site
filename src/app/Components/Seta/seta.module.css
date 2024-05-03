@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    padding: 5px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.container button {
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 54px;
+    height: 54px;
+}
+
+@media (max-width: 900px) {
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        padding: 5px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .arrow {
+        width: 40px;
+        height: 40px;
+    }
+}
