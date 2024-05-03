@@ -47,7 +47,7 @@ export default function QuemSomos() {
                     </p>
                 </div>
             </div>
-            <div className={styles.historia}>
+            <div className={styles.historia} style={{flexWrap: 'wrap', maxWidth: '1080px', height: '1000px'}}>
                 <div className={styles.contentHistoria}>
                     <p className={styles.titleContent40} style={{textAlign: 'left', whiteSpace: 'nowrap'}}>
                         PRESENÇA NAS FEIRAS
@@ -61,6 +61,7 @@ export default function QuemSomos() {
                     </p>
                 </div>
                 <Image className={styles.Image} src={Salao} alt="Salão do Automóvel" />
+                <iframe src="https://www.youtube.com/embed/SNWypAYNME8" />
             </div>
             <div className={styles.Certificacao}>
                 <div className={styles.contentCertificacao}>
