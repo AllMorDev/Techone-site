@@ -21,7 +21,7 @@ export default function Marcas() {
             </div>
             <div className={styles.marcas}>
                 <div className={styles.contentMarcas}>
-                    <a className={styles.link} href="/">
+                    <a className={styles.link} target='blank' href="https://www.svartsound.com.br/">
                         <Image className={styles.logo} alt='Svart' src={Svart} />
                     </a>
                     <p className={styles.textMarcas}>
@@ -32,8 +32,8 @@ export default function Marcas() {
                     </p>
                 </div>
                 <div className={styles.contentMarcas}>
-                    <a className={styles.link} href="/">
-                        <Image className={styles.logo} alt='Svart' src={Techone} />
+                    <a className={styles.link} target='blank' href="/">
+                        <Image className={styles.logo} alt='Techone' src={Techone} />
                     </a>
                     <p className={styles.textMarcas}>
                         Marca premium, com dedicação total ao desenvolvimento de produtos de alta tecnologia, 
@@ -42,8 +42,8 @@ export default function Marcas() {
                     </p>
                 </div>
                 <div className={styles.contentMarcas}>
-                    <a className={styles.link} href="/">
-                        <Image className={styles.logo} alt='Svart' src={Code} />
+                    <a className={styles.link} target='blank' href="https://www.codeautomotive.com.br/">
+                        <Image className={styles.logo} alt='Code' src={Code} />
                     </a>
                     <p className={styles.textMarcas}>
                         Grande linha de peças e acessórios com excelente custo-benefício. Mantém alta a qualidade 
@@ -52,8 +52,8 @@ export default function Marcas() {
                     </p>
                 </div>
                 <div className={styles.contentMarcas}>
-                    <a className={styles.link} href="/">
-                        <Image className={styles.logo} alt='Svart' src={Thork} />
+                    <a className={styles.link} target='blank' href="https://www.thorkauto.com.br/">
+                        <Image className={styles.logo} alt='Thork' src={Thork} />
                     </a>
                     <p className={styles.textMarcas}>
                         Marca de peças e acessórios que busca a melhor relação custo x benefício, para mercados 

@@ -14,11 +14,10 @@ export default function Footer() {
             <div className={styles.footer}>
                 <div className={styles.menu}>
                     <p className={styles.title}>Acesso Rápido</p>
-                    <a href='/'>Quem somos</a>
-                    <a href='/'>Produtos</a>
-                    <a href='/'>Marketing</a>
-                    <a href='/'>Fale Conosco</a>
-                    <a href='/'>Trabalhe Conosco</a>
+                    <a href='/produtos'>Produtos</a>
+                    <a href='/marketing'>Marketing</a>
+                    <a href='/fale-conosco'>Fale Conosco</a>
+                    <a href='/trabalhe-conosco'>Trabalhe Conosco</a>
                 </div>
                 <div className={styles.menu}>
                     <p className={styles.title}>Atendimento</p>
